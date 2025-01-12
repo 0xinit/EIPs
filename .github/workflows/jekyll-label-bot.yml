@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-      - uses: Pandapip1/jekyll-label-action@652aae37ed7d1313e167d78473486de2a8ca6aff
+      - uses: Pandapip1/jekyll-label-action@4b7cce7588a8686f5146a8e12aab7269042057ce
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           config-path: config/.jekyll-labels.yml
